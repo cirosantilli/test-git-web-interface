@@ -1,11 +1,16 @@
 #!/usr/bin/env bash
 
+# New better tests:
+# https://github.com/cirosantilli/test-shallow-submodule-mod
+# https://github.com/cirosantilli/test-shallow-submodule-top-branch-shallow
+# https://github.com/cirosantilli/test-shallow-submodule-top-sha
+
+# Older tests:
 # https://github.com/cirosantilli/test-submodule-mod
 # https://github.com/cirosantilli/test-submodule-top
 # https://github.com/cirosantilli/test-submodule-top-shallow
 # https://github.com/cirosantilli/test-submodule-mod-branch
 # https://github.com/cirosantilli/test-submodule-top-branch
-# https://github.com/cirosantilli/test-submodule-top-branch-shallow
 
 set -ex
 
