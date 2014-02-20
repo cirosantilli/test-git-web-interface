@@ -14,6 +14,14 @@ This repo is only for testing how Github works.
 
 ## 012 UPERCASE underline_hyphen-spaces  others%%%end
 
-[empty link]()
+# h
 
-[empty link#h](#h)
+[""]()
+
+[#h](#h)
+
+[/#h](/#h)
+
+[README.md#h](README.md#h)
+
+[d/README.md#h](d/README.md#h)
