@@ -13,3 +13,7 @@ This repo is only for testing how Github works.
 ##### h5
 
 ## 012 UPERCASE underline_hyphen-spaces  others%%%end
+
+[empty link]()
+
+[empty link#h](#h)
