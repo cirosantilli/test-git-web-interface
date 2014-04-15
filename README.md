@@ -27,3 +27,33 @@ This repo is only for testing how Github works.
 [d/README.md#h](d/README.md#h)
 
 [`code` inside link](#)
+
+# List
+
+No newlines:
+
+- a
+- b
+- c
+
+Newlines:
+
+- a
+
+- b
+
+- c
+
+Ordered:
+
+1. a
+2. b
+3. c
+
+Only 1.:
+
+1. a
+1. b
+1. c
+
+
