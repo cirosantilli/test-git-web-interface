@@ -44,6 +44,13 @@ Newlines:
 
 - c
 
+Some newlines:
+
+- first
+
+- after newline
+- not after newline
+
 Ordered:
 
 1. a
