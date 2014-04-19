@@ -66,15 +66,15 @@ Only 1.:
 Nested:
 
 - par
+    - nopar
+    - nopar
+    - nopar
+        - par
+        
+        - par
+        
+        - par
 
-    - nopar
-    - nopar
-    - nopar
-        - par
-        
-        - par
-        
-        - par
 - par
 
 - par
