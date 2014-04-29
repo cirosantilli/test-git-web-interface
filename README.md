@@ -53,15 +53,78 @@ Some newlines:
 
 Ordered:
 
-1. a
-2. b
-3. c
+1. 1
+2. 2
+3. 3
 
-Only 1.:
+Only 1:
 
-1. a
-1. b
-1. c
+1. 1
+1. 1
+1. 1
+
+Start 2:
+
+2. 2
+3. 3
+4. 4
+
+Inner list:
+
+1.  1
+2.  2
+    - list
+3.  3
+
+Inner list:
+
+1.  1
+1.  1
+    - list
+1.  1
+
+Inner list 1:
+
+1.  1
+
+1.  1
+
+    - list
+    - list
+
+1.  1
+
+Inner par list:
+
+1.  1
+
+2.  1
+
+    - list
+    - list
+
+3.  1
+
+Inner par ordered list:
+
+1.  1
+
+2.  1
+
+    1. list
+    2. list
+
+3.  1
+
+Inner par:
+
+1.  1
+1.  1
+
+    par
+
+1.  1
+
 
 Nested:
 
