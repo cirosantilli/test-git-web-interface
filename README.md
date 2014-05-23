@@ -1,4 +1,4 @@
-This repo is only for testing how Github works.
+This repo is only for testing how GitHub works.
 
 # markdown tests
 
@@ -12,7 +12,7 @@ This repo is only for testing how Github works.
 
 ##### h5
 
-## 012 UPERCASE underline_hyphen-spaces  others%%%end
+## 012 UPPERCASE underline_hyphen-spaces  others%%%end
 
 # h
 
@@ -132,8 +132,9 @@ Nested:
     - nopar
     - nopar
     - nopar
+
         - par
-        
+
         - par
         
         - par
@@ -148,3 +149,61 @@ Code in list:
 - a
 
         b
+
+# Table
+
+Very picky about table format. There must be the right amount of pipes, 3 consecutive hyphens per column of the separator line:
+
+| a | b |
+|---|---|
+| c | d |
+
+No outer pipes:
+
+ a | b
+---|---
+ c | d
+
+4 hyphens:
+
+| a | b |
+|----|---|
+| c | d |
+
+Space 3 hyphens:
+
+| a | b |
+| ---|---|
+| c | d |
+
+3 hyphens space:
+
+| a | b |
+|--- |---|
+| c | d |
+
+hyphen space 2 hyphens:
+
+| a | b |
+|- --|---|
+| c | d |
+
+2 hyphens:
+
+| a | b |
+|--|---|
+| c | d |
+
+no pipes:
+
+| a | b |
+|-------|
+| c | d |
+
+| Open source | Open source | Open source | Open source | Open source | Open source | Open source | Open source | Open source |
+|-------------|-------------|-------------|-------------|-------------|-------------|-------------|-------------|-------------|
+| Open source | Open source | Open source | Open source | Open source | Open source | Open source | Open source | Open source |
+
+| asdfqwerasdfqwerasdqwerasdfqwer | asdfqwerasdfqwerasdqwerasdfqwer | asdfqwerasdfqwerasdqwerasdfqwer | asdfqwerasdfqwerasdqwerasdfqwer | asdfqwerasdfqwerasdqwerasdfqwer | asdfqwerasdfqwerasdqwerasdfqwer | asdfqwerasdfqwerasdqwerasdfqwer | asdfqwerasdfqwerasdqwerasdfqwer | asdfqwerasdfqwerasdqwerasdfqwer |
+|---------------------------------|---------------------------------|---------------------------------|---------------------------------|---------------------------------|---------------------------------|---------------------------------|---------------------------------|---------------------------------|
+| asdfqwerasdfqwerasdqwerasdfqwer | asdfqwerasdfqwerasdqwerasdfqwer | asdfqwerasdfqwerasdqwerasdfqwer | asdfqwerasdfqwerasdqwerasdfqwer | asdfqwerasdfqwerasdqwerasdfqwer | asdfqwerasdfqwerasdqwerasdfqwer | asdfqwerasdfqwerasdqwerasdfqwer | asdfqwerasdfqwerasdqwerasdfqwer | asdfqwerasdfqwerasdqwerasdfqwer |
