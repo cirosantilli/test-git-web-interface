@@ -1,4 +1,4 @@
 ## prose.io
 
-![](//placeholder.jpg)
+![placeholder](//placeholder.jpg)
 
