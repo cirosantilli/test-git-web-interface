@@ -213,3 +213,5 @@ no pipes:
 Relative link: [a.md](a.md).
 
 Relative automatic link: <a.md>.
+
+Automatic link: <http://example.com>.
