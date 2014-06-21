@@ -207,3 +207,7 @@ no pipes:
 | asdfqwerasdfqwerasdqwerasdfqwer | asdfqwerasdfqwerasdqwerasdfqwer | asdfqwerasdfqwerasdqwerasdfqwer | asdfqwerasdfqwerasdqwerasdfqwer | asdfqwerasdfqwerasdqwerasdfqwer | asdfqwerasdfqwerasdqwerasdfqwer | asdfqwerasdfqwerasdqwerasdfqwer | asdfqwerasdfqwerasdqwerasdfqwer | asdfqwerasdfqwerasdqwerasdfqwer |
 |---------------------------------|---------------------------------|---------------------------------|---------------------------------|---------------------------------|---------------------------------|---------------------------------|---------------------------------|---------------------------------|
 | asdfqwerasdfqwerasdqwerasdfqwer | asdfqwerasdfqwerasdqwerasdfqwer | asdfqwerasdfqwerasdqwerasdfqwer | asdfqwerasdfqwerasdqwerasdfqwer | asdfqwerasdfqwerasdqwerasdfqwer | asdfqwerasdfqwerasdqwerasdfqwer | asdfqwerasdfqwerasdqwerasdfqwer | asdfqwerasdfqwerasdqwerasdfqwer | asdfqwerasdfqwerasdqwerasdfqwer |
+
+# Link
+
+Relative automatic links: <a.md>.
