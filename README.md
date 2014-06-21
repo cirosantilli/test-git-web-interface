@@ -210,4 +210,6 @@ no pipes:
 
 # Link
 
-Relative automatic links: <a.md>.
+Relative link: [a.md](a.md).
+
+Relative automatic link: <a.md>.
