@@ -13,3 +13,5 @@ dillinger
 ![](//placeholder.jpg)
 
 ![](//placeholder.jpg)
+
+![](//logo-black.png)
