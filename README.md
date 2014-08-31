@@ -1,6 +1,8 @@
-This repo is only for testing how GitHub works.
+This repo is only for testing how GitHub / GitLab work.
 
-# markdown tests
+Size limit tests will not be included here so as to keep this repo small.
+
+# Markdown tests
 
 # h1
 
@@ -28,7 +30,7 @@ This repo is only for testing how GitHub works.
 
 [`code` inside link](#)
 
-# List
+## List
 
 No newlines:
 
@@ -144,13 +146,13 @@ Nested:
 - par
 
 
-Code in list:
+Code in list with one indent:
 
 - a
 
         b
 
-# Table
+## Table
 
 Very picky about table format. There must be the right amount of pipes, 3 consecutive hyphens per column of the separator line:
 
@@ -208,7 +210,7 @@ no pipes:
 |---------------------------------|---------------------------------|---------------------------------|---------------------------------|---------------------------------|---------------------------------|---------------------------------|---------------------------------|---------------------------------|
 | asdfqwerasdfqwerasdqwerasdfqwer | asdfqwerasdfqwerasdqwerasdfqwer | asdfqwerasdfqwerasdqwerasdfqwer | asdfqwerasdfqwerasdqwerasdfqwer | asdfqwerasdfqwerasdqwerasdfqwer | asdfqwerasdfqwerasdqwerasdfqwer | asdfqwerasdfqwerasdqwerasdfqwer | asdfqwerasdfqwerasdqwerasdfqwer | asdfqwerasdfqwerasdqwerasdfqwer |
 
-# Link
+## Link
 
 Relative link: [a.md](a.md).
 
