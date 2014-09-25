@@ -30,3 +30,17 @@ a.
 
 a.b.
   c
+
+Chaining style2:
+
+a.
+  b.
+  c
+
+a.b.
+  c
+
+a
+  .b
+  .c
+
