@@ -212,6 +212,8 @@ Relative link: [a.md](a.md).
 
 Relative link: [..](..).
 
+Relative link no another repo: [/../test-empty-commit](/../test-empty-commit).
+
 Relative automatic link: <a.md>.
 
 Automatic link: <http://example.com>.
