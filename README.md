@@ -10,6 +10,21 @@ There are also some tests that could not be included here conveniently:
 
 - <https://github.com/cirosantilli/test-empty-commit>
 
+This repository is mirrored at:
+
+- <https://github.com/cirosantilli/test>
+- <https://gitlab.com/cirosantilli/test>
+
 Other similar repos from other people:
 
 - <https://github.com/joernchen/evil_stuff>
+
+The most interesting files on this repository are:
+
+-   [markdown.md](markdown.md)
+
+-   whitespace filename edge cases:
+
+    - [single whitespace filename](%20)
+    - [double whitespace directory name](%20%20/) and [it's README](%20%20/README.md)
+    - [a b](a b)
