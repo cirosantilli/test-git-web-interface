@@ -224,6 +224,7 @@ Markup inside link:
 
 - [`d`](d)
 - [*d*](d)
+- [![](png.png)](d)
 
 # GitHub specifics
 
