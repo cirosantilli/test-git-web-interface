@@ -33,4 +33,8 @@ The most interesting files on this repository are:
 
 Some interesting branches include:
 
-- [`hasslash/a`](../hasslash/a): branch inside sub-directory
+-   [`hasslash/a`](../hasslash/a): branch inside sub-directory
+
+-   [`-r`](../-r): branch with forbidden name, and in particular one that may be used for shell injection. 
+
+    Create manually with `cp master -- -r` and push with `git push --all`.
