@@ -210,6 +210,8 @@ no pipes:
 
 Relative link: [a.md](a.md).
 
+Relative link to tree: [d/](d/).
+
 Relative link: [..](..).
 
 Relative link no another repo: [/../test-empty-commit](/../test-empty-commit).
