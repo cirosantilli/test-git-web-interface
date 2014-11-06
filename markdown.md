@@ -220,7 +220,7 @@ Relative automatic link: <a.md>.
 
 Automatic link: <http://example.com>.
 
-Markup inside link:
+### Markup inside link
 
 - [`d`](d)
 - [*d*](d)
