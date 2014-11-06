@@ -9,6 +9,8 @@ Tests that are very large will not be included here to keep this repository smal
 There are also some tests that could not be included here conveniently:
 
 - <https://github.com/cirosantilli/test-empty-commit>
+- <https://github.com/cirosantilli/test-empty-subdir>
+- <https://github.com/cirosantilli/test-long-filename>
 
 This repository is mirrored at:
 
@@ -28,3 +30,7 @@ The most interesting files on this repository are:
     - [single whitespace filename](%20)
     - [double whitespace directory name](%20%20/) and [it's README](%20%20/README.md)
     - [a b](a b)
+
+Some interesting branches include:
+
+- [`hasslash/a`](../hasslash/a): branch inside sub-directory
