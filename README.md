@@ -28,13 +28,15 @@ The most interesting files on this repository are:
 -   whitespace filename edge cases:
 
     - [single whitespace filename](%20)
-    - [double whitespace directory name](%20%20/) and [it's README](%20%20/README.md)
+    - [double whitespace directory name](%20%20/) and [its README](%20%20/README.md)
     - [a b](a b)
 
-Some interesting branches include:
+Some interesting branches and tags include:
 
 -   [`hasslash/a`](../hasslash/a): branch inside sub-directory
 
 -   [`-r`](../-r): branch with forbidden name, and in particular one that may be used for shell injection. 
 
     Create manually with `cp master -- -r` and push with `git push --all`.
+
+-   `tag-empty-blob`
