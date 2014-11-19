@@ -222,9 +222,13 @@ Automatic link: <http://example.com>.
 
 ## Image
 
-![](png.png)
+- png.png ![](png.png)
 
-![](./png.png)
+- ./png.png ![](./png.png)
+
+- d/png.png ![](d/png.png)
+
+- ./d/png.png ![](./d/png.png)
 
 ### Markup inside link
 
