@@ -220,6 +220,12 @@ Relative automatic link: <a.md>.
 
 Automatic link: <http://example.com>.
 
+## Image
+
+![](png.png)
+
+![](./png.png)
+
 ### Markup inside link
 
 - [`d`](d)
