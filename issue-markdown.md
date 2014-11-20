@@ -14,6 +14,7 @@ commit SHA reference:
 
 - full URL: https://github.com/cirosantilli/test/commit/429ebfd5c2aebc7debe32347cb7b19869fa4dd29 https://gitlab.com/cirosantilli/test/commit/429ebfd5c2aebc7debe32347cb7b19869fa4dd29
 - full SHA: 429ebfd5c2aebc7debe32347cb7b19869fa4dd29
+- 7 char SHA: 429ebfd
 - 6 char SHA: 429ebf deface
 - 4 char SHA: 429e defa
 
@@ -30,3 +31,18 @@ MR reference:
 - hash id: #1
 
 Tag reference: https://github.com/cirosantilli/test/releases/tag/annotated
+
+
+- GitHub: https://github.com/cirosantilli/test/issues/4
+- GitLab: https://gitlab.com/cirosantilli/test/issues/1
+
+# Line breaks at newline
+
+line1
+line2
+
+# Wide stuff
+
+mmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmm
+
+|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
