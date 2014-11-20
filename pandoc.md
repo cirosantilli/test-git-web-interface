@@ -1,3 +1,0 @@
-**Rendered** with Markdown.
-
-prose
