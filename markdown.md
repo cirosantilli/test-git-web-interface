@@ -208,17 +208,21 @@ no pipes:
 
 ## Link
 
-Relative link: [a.md](a.md).
+Automatic: <http://example.com>.
 
-Relative link to tree: [d/](d/). 14-11: GitHub renders links to `blob`, even if pointing to tree, and redirects `blob` to `tree`. GitLab also redirects, but renders trees as `tree` links directly.
+### Relative links
 
-Relative link: [..](..).
+[a.md](a.md).
 
-Relative link no another repo: [/../test-empty-commit](/../test-empty-commit).
+[./a.md](./a.md).
 
-Relative automatic link: <a.md>.
+[d/](d/). 14-11: GitHub renders links to `blob`, even if pointing to tree, and redirects `blob` to `tree`. GitLab also redirects, but renders trees as `tree` links directly.
 
-Automatic link: <http://example.com>.
+[..](..).
+
+[/../test-empty-commit](/../test-empty-commit).
+
+Automatic relative link: <a.md>. Fails because would conflict with HTML tags.
 
 ## Image
 
