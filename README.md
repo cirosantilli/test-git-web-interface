@@ -1,4 +1,10 @@
-Tests to see how GitHub and GitLab work exactly and to detect bugs with them.
+Tests to see how Git web interfaces like GitHub and GitLab work exactly and to detect bugs with them.
+
+This repository is mirrored at:
+
+- <https://github.com/cirosantilli/test>
+- <https://gitlab.com/cirosantilli/test>
+- <https://bitbucket.org/cirosantilli/test>
 
 Tests that are very large will not be included here to keep this repository small:
 
@@ -12,11 +18,6 @@ There are also some tests that could not be included here conveniently:
 - <https://github.com/cirosantilli/test-empty-subdir>
 - <https://github.com/cirosantilli/test-long-filename-256>
 - <https://github.com/cirosantilli/test-long-filename-1024>
-
-This repository is mirrored at:
-
-- <https://github.com/cirosantilli/test>
-- <https://gitlab.com/cirosantilli/test>
 
 Other similar repos from other people:
 
