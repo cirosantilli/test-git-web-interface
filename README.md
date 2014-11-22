@@ -44,8 +44,10 @@ Interesting branches and tags:
 
 -   [`-r`](../-r): branch with forbidden name, and in particular one that may be used for shell injection. 
 
--   `<script>alert('xss')</script>` and `<b>a</b>`: XSS and defacement attempts
+-   `<script>alert('xss')</script>` and `<b>a</b>`: XSS attempts
 
     Create manually with `cp master -- -r` and push with `git push --all`.
 
--   `tag-empty-blob`
+-   `tag-empty-blob`: a tag that points to a blob
+
+-   [`a;{echo,INJECTION};{echo,RULZ};`](a;{echo,INJECTION};{echo,RULZ};): GitHub proposes a shell injection to users on a pull request under "You can also merge branches on the command line". <https://github.com/cirosantilli/test/pull/17>
