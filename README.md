@@ -5,6 +5,9 @@ This repository is mirrored at:
 - <https://github.com/cirosantilli/test>
 - <https://gitlab.com/cirosantilli/test>
 - <https://bitbucket.org/cirosantilli/test>
+- <https://sourceforge.net/projects/cirosantilli-test>
+- <https://code.google.com/p/cirosantilli-test>
+- <https://www.assembla.com/code/cirosantilli-test/git/nodes>
 
 Tests that are very large will not be included here to keep this repository small:
 
