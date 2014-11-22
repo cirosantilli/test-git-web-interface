@@ -42,6 +42,8 @@ Some interesting branches and tags include:
 
 -   [`-r`](../-r): branch with forbidden name, and in particular one that may be used for shell injection. 
 
+-   `<script>alert('xss')</script>` and `<b>a</b>`: XSS and defacement attempts
+
     Create manually with `cp master -- -r` and push with `git push --all`.
 
 -   `tag-empty-blob`
