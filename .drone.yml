@@ -1,0 +1,4 @@
+image: ubuntu
+script:
+  - echo a
+  - echo b > drone-artifact.txt
