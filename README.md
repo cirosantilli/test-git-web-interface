@@ -30,13 +30,15 @@ The most interesting files on this repository are:
 
 -   [markdown.md](markdown.md)
 
+-   [issue-markdown.md](issue-markdown.md): test the markdown on issues
+
 -   whitespace filename edge cases:
 
     - [single whitespace filename](%20)
     - [double whitespace directory name](%20%20/) and [its README](%20%20/README.md)
     - [a b](a b)
 
-Some interesting branches and tags include:
+Interesting branches and tags:
 
 -   [`hasslash/a`](../hasslash/a): branch inside sub-directory
 
