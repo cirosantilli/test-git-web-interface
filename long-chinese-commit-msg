@@ -1,0 +1,7 @@
+This file was created for the long Chinese commit message.
+
+Never modify it so it will always show on the tree.
+
+The message was generated with:
+
+    git commit -m `python -c 'print "长" * 255'`
