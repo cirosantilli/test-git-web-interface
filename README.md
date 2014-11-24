@@ -32,11 +32,37 @@ The most interesting files on this repository are:
 
 -   [issue-markdown.md](issue-markdown.md): test the markdown on issues
 
--   whitespace filename edge cases:
+-   [filename/](filename/): weird stuff and attacks based on the filenames
 
-    - [single whitespace filename](%20)
-    - [double whitespace directory name](%20%20/) and [its README](%20%20/README.md)
-    - [a b](a b)
+    The only filenames which are not valid are:
+
+    - contain forward slash `/`
+    - `.git`
+    - `.` and `..`, but not `...`
+
+    Everything else goes:
+
+    -   [?a=b&c=d](?a=b&c=d)
+
+    -   ["](")
+
+    -   ['](')
+
+    -   [#](#)
+
+    -   [-start-with-slash](-start-with-slash)
+
+    -   [<script>](<script>)
+
+    -   `<script src="data:text;utf8,alert('xss')">`
+
+    -   [back\slash](back\slash)
+
+    -   whitespace filename edge cases:
+
+        - [single whitespace filename](%20)
+        - [double whitespace directory name](%20%20/) and [its README](%20%20/README.md)
+        - [a b](a b)
 
 Interesting branches and tags:
 
