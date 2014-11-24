@@ -50,6 +50,10 @@ The most interesting files on this repository are:
 
     -   [#](#)
 
+    -   [;](;)
+
+    -   [:](:)
+
     -   [-start-with-slash](-start-with-slash)
 
     -   [<script>](<script>)
