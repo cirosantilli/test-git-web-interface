@@ -20,10 +20,12 @@ Tests that are very large will not be included here to keep this repository smal
 
 There are also some tests that could not be included here conveniently:
 
+- <https://github.com/cirosantilli/test-control-chars>
 - <https://github.com/cirosantilli/test-empty-commit>
 - <https://github.com/cirosantilli/test-empty-subdir>
-- <https://github.com/cirosantilli/test-long-filename-256>
 - <https://github.com/cirosantilli/test-long-filename-1024>
+- <https://github.com/cirosantilli/test-long-filename-256>
+- <https://github.com/cirosantilli/test-refs-api-tags-pulls-block>
 
 Other similar repos from other people:
 
@@ -70,6 +72,10 @@ The most interesting files on this repository are:
         - [single whitespace filename](%20)
         - [double whitespace directory name](%20%20/) and [its README](%20%20/README.md)
         - [a b](a b)
+
+-   Symlinks:
+
+    []()
 
 Interesting branches and tags:
 
