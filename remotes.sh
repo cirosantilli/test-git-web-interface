@@ -1,4 +1,4 @@
-#!/usr/bin/env/sh
+#!/usr/bin/env bash
 git remote add at      git@atlas-tmp:tmp/test.git
 git remote add as      git@git.assembla.com:cirosantilli-test.git
 git remote add bb      git@bitbucket.org:cirosantilli/test.git
