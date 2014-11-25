@@ -1,4 +1,4 @@
-Tests to see how Git web interfaces like GitHub and GitLab work exactly and to detect bugs with them.
+Tests to see how Git web interfaces like GitHub and GitLab work exactly detect bugs.
 
 This repository is mirrored at:
 
@@ -8,6 +8,9 @@ This repository is mirrored at:
 - <https://sourceforge.net/projects/cirosantilli-test>
 - <https://code.google.com/p/cirosantilli-test>
 - <https://www.assembla.com/code/cirosantilli-test/git/nodes>
+
+The SSH of those repos can be found at: [remotes.sh](remotes.sh),
+including other repos which don't have public view like Atlas.
 
 Tests that are very large will not be included here to keep this repository small:
 
