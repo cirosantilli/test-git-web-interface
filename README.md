@@ -73,10 +73,6 @@ The most interesting files on this repository are:
         - [double whitespace directory name](%20%20/) and [its README](%20%20/README.md)
         - [a b](a b)
 
--   Symlinks:
-
-    []()
-
 Interesting branches and tags:
 
 -   [`hasslash/a`](../hasslash/a): branch inside sub-directory
