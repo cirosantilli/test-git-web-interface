@@ -26,6 +26,7 @@ There are also some tests that could not be included here conveniently:
 - <https://github.com/cirosantilli/test-long-filename-1024>
 - <https://github.com/cirosantilli/test-long-filename-256>
 - <https://github.com/cirosantilli/test-refs-api-tags-pulls-block>
+- <https://github.com/cirosantilli/test-symlink-middle-null>
 - <https://github.com/cirosantilli/test-symlink-start-null>
 
 Other similar repos from other people:
