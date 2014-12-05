@@ -35,9 +35,9 @@ Other similar repos from other people:
 
 The most interesting files on this repository are:
 
--   [markdown.md](markdown.md)
+-   [md.md](markdown.md)
 
--   [issue-markdown.md](issue-markdown.md): test the markdown on issues
+-   [issue-md.md](issue-markdown.md): test the markdown on issues
 
 -   [filename/](filename/): weird stuff and attacks based on the filenames
 
