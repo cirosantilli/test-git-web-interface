@@ -40,7 +40,7 @@ The most interesting files on this repository are:
 
 -   [issue-md.md](issue-markdown.md): test the markdown on issues
 
--   [filename/](filename/): weird stuff and attacks based on the filenames
+-   Weird stuff and attacks based on the filenames.
 
     The only filenames which are not valid are:
 
@@ -75,6 +75,10 @@ The most interesting files on this repository are:
         - [single whitespace filename](%20)
         - [double whitespace directory name](%20%20/) and [its README](%20%20/README.md)
         - [a b](a b)
+
+-   Git directory inside Git directory: [_git](_git).
+
+    For further mischief, same files were copied on the top-level of the repository.
 
 Interesting branches and tags:
 
