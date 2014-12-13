@@ -25,6 +25,7 @@ There are also some tests that could not be included here conveniently:
 - <https://github.com/cirosantilli/test-empty-subdir>
 - <https://github.com/cirosantilli/test-long-filename-1024>
 - <https://github.com/cirosantilli/test-long-filename-256>
+- <https://github.com/cirosantilli/test-min-sane>
 - <https://github.com/cirosantilli/test-refs-api-tags-pulls-block>
 - <https://github.com/cirosantilli/test-symlink-self>
 - <https://github.com/cirosantilli/test-symlink-middle-null>
@@ -76,9 +77,11 @@ The most interesting files on this repository are:
         - [double whitespace directory name](%20%20/) and [its README](%20%20/README.md)
         - [a b](a b)
 
--   Git directory inside Git directory: [_git](_git).
+-   Magic Git directories:
 
-    For further mischief, same files were copied on the top-level of the repository.
+    -   Git directory inside Git directory: [_git](_git).
+
+        For further mischief, the files in that directory were copied to the top-level of the repository.
 
 Interesting branches and tags:
 
@@ -86,9 +89,9 @@ Interesting branches and tags:
 
 -   [`-r`](../-r): branch with forbidden name, and in particular one that may be used for shell injection. 
 
--   `<script>alert('xss')</script>` and `<b>a</b>`: XSS attempts
-
     Create manually with `cp master -- -r` and push with `git push --all`.
+
+-   `<script>alert('xss')</script>` and `<b>a</b>`: XSS attempts
 
 -   `tag-empty-blob`: a tag that points to a blob
 
