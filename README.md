@@ -88,6 +88,8 @@ The most interesting files on this repository are:
         - [double whitespace directory name](%20%20/) and [its README](%20%20/README.md)
         - [a b](a b)
 
+    -   Case insensitive filename conflict attempt: [CASE](CASE), [case](case) and [CASE-DIR](CASE-DIR), [case-dir](case-dir). Interestingly, however, `.GIT` fails: <https://gitlab.com/cirosantilli/test-GIT/tree/master>
+
 -   Magic Git directories:
 
     -   Git directory inside Git directory: [_git](_git).
