@@ -37,11 +37,20 @@ Other similar repos from other people:
 
 - <https://github.com/joernchen/evil_stuff>
 
+Other useful things:
+
+-   <https://github.com/holman/feedback/issues>. May contain some extra semi-internal information.
+    - <https://github.com/showcases/projects-that-power-github>
+    - <https://github.com/holman/feedback/issues/553> GitHub is hosted on Carpathia
+    - <https://github.com/holman/feedback/issues/544> GitHub uses Mac?
+
 The most interesting files on this repository are:
 
 -   [md.md](markdown.md)
 
 -   [issue-md.md](issue-markdown.md): test the markdown on issues
+
+-   [svg.svg](svg.svg), with an XSS attempt
 
 -   Weird stuff and attacks based on the filenames.
 
