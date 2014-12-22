@@ -250,7 +250,19 @@ mmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmm
 
 ## HTML tags
 
+## Raw HTML
+
+`script`:
+
 <script>alert('xss')</script>
+
+`<div>a</div>`:
+
+<div>a</div>
+
+`</div>`:
+
+</div>
 
 ## XSS
 
