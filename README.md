@@ -33,15 +33,16 @@ There are also some tests that could not be included here conveniently:
 - <https://github.com/cirosantilli/test-control-chars>
 - <https://github.com/cirosantilli/test-empty-commit>
 - <https://github.com/cirosantilli/test-empty-subdir>
-- <https://gitlab.com/cirosantilli/test-GIT/tree/master> (fails on GitHub)
+- <https://github.com/cirosantilli/test-invalid-utf8>
 - <https://github.com/cirosantilli/test-large-file>
 - <https://github.com/cirosantilli/test-long-filename-1024>
 - <https://github.com/cirosantilli/test-long-filename-256>
 - <https://github.com/cirosantilli/test-min-sane>
 - <https://github.com/cirosantilli/test-refs-api-tags-pulls-block>
-- <https://github.com/cirosantilli/test-symlink-self>
 - <https://github.com/cirosantilli/test-symlink-middle-null>
+- <https://github.com/cirosantilli/test-symlink-self>
 - <https://github.com/cirosantilli/test-symlink-start-null>
+- <https://gitlab.com/cirosantilli/test-GIT/tree/master> (fails on GitHub)
 
 Other similar repos from other people:
 
