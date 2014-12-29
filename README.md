@@ -9,9 +9,13 @@ This repository is mirrored at:
 - <https://github.com/cirosantilli/test>
 - <https://gitlab.com/cirosantilli/test>
 - <https://bitbucket.org/cirosantilli/test>
-- <https://sourceforge.net/projects/cirosantilli-test>
 - <https://code.google.com/p/cirosantilli-test>
+- <https://sourceforge.net/projects/cirosantilli-test>
 - <https://www.assembla.com/code/cirosantilli-test/git/nodes>
+
+Mirrors without repository browsing:
+
+- <http://codeplane.com>
 
 The SSH of those repos can be found at: [remotes.sh](remotes.sh),
 including other repos which don't have public view like Atlas.
