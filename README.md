@@ -1,4 +1,8 @@
+# Test
+
 Tests to see how Git web interfaces like GitHub and GitLab work exactly detect bugs.
+
+## Mirrors
 
 This repository is mirrored at:
 
@@ -11,6 +15,8 @@ This repository is mirrored at:
 
 The SSH of those repos can be found at: [remotes.sh](remotes.sh),
 including other repos which don't have public view like Atlas.
+
+## Related repositories
 
 Tests that are very large will not be included here to keep this repository small:
 
@@ -40,68 +46,82 @@ Other similar repos from other people:
 Other useful things:
 
 -   <https://github.com/holman/feedback/issues>. May contain some extra semi-internal information.
+
     - <https://github.com/showcases/projects-that-power-github>
     - <https://github.com/holman/feedback/issues/553> GitHub is hosted on Carpathia
     - <https://github.com/holman/feedback/issues/544> GitHub uses Mac?
 
+## Files
+
 The most interesting files on this repository are:
 
--   Markup tests:
+Markup tests:
 
-    - [md.md](markdown.md)
-    - [issue-md.md](issue-markdown.md): markdown on issues
-    - [adoc.adoc](adoc.adoc)
-    - [rdoc.rdoc](rdoc.rdoc)
+- [md.md](markdown.md)
+- [issue-md.md](issue-markdown.md): markdown on issues
+- [adoc.adoc](adoc.adoc)
+- [rdoc.rdoc](rdoc.rdoc)
 
--   Routing conflict attempts:
+Routing conflict attempts:
 
-    - [atom.atom](atom.atom)
+- [atom.atom](atom.atom)
+- [diff](diff)
+- [diff.diff](diff.diff)
+- [patch.patch](patch.patch)
 
--   [svg.svg](svg.svg), with an XSS attempt
+Weird stuff and attacks based on the filenames.
 
--   Weird stuff and attacks based on the filenames.
+The only filenames which are not valid are:
 
-    The only filenames which are not valid are:
+- contain forward slash `/`
+- `.git`
+- `.` and `..`, but not `...`
 
-    - contain forward slash `/`
-    - `.git`
-    - `.` and `..`, but not `...`
+Everything else goes:
 
-    Everything else goes:
+-   [?a=b&c=d](?a=b&c=d)
 
-    -   [?a=b&c=d](?a=b&c=d)
+-   ["](")
 
-    -   ["](")
+-   [#](#)
 
-    -   ['](')
+-   ['](')
 
-    -   [#](#)
+-   [:](:)
 
-    -   [;](;)
+-   [;](;)
 
-    -   [:](:)
+-   [\](\)
 
-    -   [-start-with-slash](-start-with-slash)
+-   [-](-)
 
-    -   [<script>](<script>)
+-   [-start-with-slash](-start-with-slash)
 
-    -   `<script src="data:text;utf8,alert('xss')">`
+-   [\.md](\.md)
 
-    -   [back\slash](back\slash)
+-   whitespace filename edge cases:
 
-    -   whitespace filename edge cases:
+    - [single whitespace filename](%20)
+    - [double whitespace directory name](%20%20/) and [its README](%20%20/README.md)
+    - [a b](a b)
 
-        - [single whitespace filename](%20)
-        - [double whitespace directory name](%20%20/) and [its README](%20%20/README.md)
-        - [a b](a b)
+-   Case insensitive filename conflict attempt: [CASE](CASE), [case](case) and [CASE-DIR](CASE-DIR), [case-dir](case-dir). Interestingly, however, `.GIT` fails: <https://gitlab.com/cirosantilli/test-GIT/tree/master>
 
-    -   Case insensitive filename conflict attempt: [CASE](CASE), [case](case) and [CASE-DIR](CASE-DIR), [case-dir](case-dir). Interestingly, however, `.GIT` fails: <https://gitlab.com/cirosantilli/test-GIT/tree/master>
+Magic Git directories:
 
--   Magic Git directories:
+-   Git directory inside Git directory: [_git](_git).
 
-    -   Git directory inside Git directory: [_git](_git).
+    For further mischief, the files in that directory were copied to the top-level of the repository.
 
-        For further mischief, the files in that directory were copied to the top-level of the repository.
+Other interesting things to do are the uppercase `.Git` and the `.git` file, which did not fit well in this repository.
+
+XSS attempts:
+
+- [<script>](<script>)
+- `<script src="data:text;utf8,alert('xss')">`
+- [svg.svg](svg.svg), with an XSS attempt
+
+## Refs
 
 Interesting branches and tags:
 
