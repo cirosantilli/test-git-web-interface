@@ -46,9 +46,16 @@ Other useful things:
 
 The most interesting files on this repository are:
 
--   [md.md](markdown.md)
+-   Markup tests:
 
--   [issue-md.md](issue-markdown.md): test the markdown on issues
+    - [md.md](markdown.md)
+    - [issue-md.md](issue-markdown.md): markdown on issues
+    - [adoc.adoc](adoc.adoc)
+    - [rdoc.rdoc](rdoc.rdoc)
+
+-   Routing conflict attempts:
+
+    - [atom.atom](atom.atom)
 
 -   [svg.svg](svg.svg), with an XSS attempt
 
