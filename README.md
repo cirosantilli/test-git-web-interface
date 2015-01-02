@@ -12,6 +12,7 @@ This repository is mirrored at:
 - <https://code.google.com/p/cirosantilli-test>
 - <https://sourceforge.net/projects/cirosantilli-test>
 - <https://www.assembla.com/code/cirosantilli-test/git/nodes>
+- <http://repo.or.cz/w/cirosantilli-test.git>. Runs on [Girocco](http://repo.or.cz/w/girocco.git). TODO get working.
 
 Mirrors without repository browsing:
 
