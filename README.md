@@ -6,13 +6,14 @@ Tests to see how Git web interfaces like GitHub and GitLab work exactly detect b
 
 This repository is mirrored at:
 
-- <https://github.com/cirosantilli/test>
-- <https://gitlab.com/cirosantilli/test>
+- <http://repo.or.cz/w/cirosantilli-test.git>. Runs on [Girocco](http://repo.or.cz/w/girocco.git). TODO get working.
 - <https://bitbucket.org/cirosantilli/test>
 - <https://code.google.com/p/cirosantilli-test>
+- <https://github.com/cirosantilli/test>
+- <https://gitlab.com/cirosantilli/test>
+- <https://gitorious.org/cirosantilli-test/cirosantilli-test>
 - <https://sourceforge.net/projects/cirosantilli-test>
 - <https://www.assembla.com/code/cirosantilli-test/git/nodes>
-- <http://repo.or.cz/w/cirosantilli-test.git>. Runs on [Girocco](http://repo.or.cz/w/girocco.git). TODO get working.
 
 Mirrors without repository browsing:
 
