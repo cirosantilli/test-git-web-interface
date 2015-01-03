@@ -15,6 +15,10 @@ This repository is mirrored at:
 - <https://sourceforge.net/projects/cirosantilli-test>
 - <https://www.assembla.com/code/cirosantilli-test/git/nodes>
 
+Mirrors without public view:
+
+- <https://cirosantilli.kilnhg.com/Code/Repositories/Group/test/Files>
+
 Mirrors without repository browsing:
 
 - <http://codeplane.com>
