@@ -8,7 +8,6 @@ This repository is mirrored at:
 
 - <http://repo.or.cz/w/cirosantilli-test.git>. Runs on [Girocco](http://repo.or.cz/w/girocco.git). TODO get working.
 - <https://bitbucket.org/cirosantilli/test>
-- <https://code.google.com/p/cirosantilli-test>
 - <https://github.com/cirosantilli/test>
 - <https://gitlab.com/cirosantilli/test>
 - <https://gitorious.org/cirosantilli-test/cirosantilli-test>
@@ -22,6 +21,11 @@ Mirrors without public view:
 Mirrors without repository browsing:
 
 - <http://codeplane.com>
+
+Mirrors for which I can't create projects:
+
+- <https://kenai.com>
+- <https://code.google.com/p/cirosantilli-test> (to be closed)
 
 The SSH of those repos can be found at: [remotes.sh](remotes.sh),
 including other repos which don't have public view like Atlas.
@@ -45,10 +49,13 @@ There are also some tests that could not be included here conveniently:
 - <https://github.com/cirosantilli/test-long-filename-256>
 - <https://github.com/cirosantilli/test-min-sane>
 - <https://github.com/cirosantilli/test-refs-api-tags-pulls-block>
+- <https://github.com/cirosantilli/test-submodule-contributing>
+- <https://github.com/cirosantilli/test-symlink-contributing>
 - <https://github.com/cirosantilli/test-symlink-middle-null>
 - <https://github.com/cirosantilli/test-symlink-self>
 - <https://github.com/cirosantilli/test-symlink-start-null>
 - <https://gitlab.com/cirosantilli/test-GIT/tree/master> (fails on GitHub)
+- <https://github.com/cirosantilli/test-streak>, <https://github.com/cirosantilli/test-streak-1000>
 
 Other similar repos from other people:
 
@@ -118,11 +125,17 @@ Everything else goes:
 
 -   Case insensitive filename conflict attempt: [CASE](CASE), [case](case) and [CASE-DIR](CASE-DIR), [case-dir](case-dir). Interestingly, however, `.GIT` fails: <https://gitlab.com/cirosantilli/test-GIT/tree/master>
 
-Magic Git directories:
+Magic Git files:
 
 -   Git directory inside Git directory: [_git](_git).
 
     For further mischief, the files in that directory were copied to the top-level of the repository.
+
+-   [.gitattributes](.gitattributes): TODO empty
+
+    Does not seems to lead to arbitrary code execution, as available diff and merge drivers must be set on the config.
+
+    GitHub seems to ignore it: <http://stackoverflow.com/a/24382933/895245>
 
 Other interesting things to do are the uppercase `.Git` and the `.git` file, which did not fit well in this repository.
 
@@ -131,6 +144,7 @@ XSS attempts:
 - [<script>](<script>)
 - `<script src="data:text;utf8,alert('xss')">`
 - [svg.svg](svg.svg), with an XSS attempt
+- [sym-xss](sym-xss). It's path is an XSS attempt.
 
 ## Refs
 
