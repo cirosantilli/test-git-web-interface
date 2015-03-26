@@ -161,3 +161,5 @@ Interesting branches and tags:
 -   `tag-empty-blob`: a tag that points to a blob
 
 -   [`a;{echo,INJECTION};{echo,RULZ};`](a;{echo,INJECTION};{echo,RULZ};): GitHub proposes a shell injection to users on a pull request under "You can also merge branches on the command line". <https://github.com/cirosantilli/test/pull/17>
+
+-   [1970](1970): earliest possible commit with `git commit --date '@0 +0000'`
