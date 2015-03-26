@@ -163,3 +163,5 @@ Interesting branches and tags:
 -   [`a;{echo,INJECTION};{echo,RULZ};`](a;{echo,INJECTION};{echo,RULZ};): GitHub proposes a shell injection to users on a pull request under "You can also merge branches on the command line". <https://github.com/cirosantilli/test/pull/17>
 
 -   [1970](1970): earliest possible commit with `git commit --date '@0 +0000'`
+
+-   [future](future): commit in the far far future. TODO what is the maximal date for Git? See also: <http://stackoverflow.com/questions/19742345/what-is-the-format-for-date-parameter-of-git-commit/29289807>
