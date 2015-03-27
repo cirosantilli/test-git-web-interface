@@ -1,8 +1,5 @@
-This is the content of the issue used to test markdown rendering on issues of the web UI.
-
 - GitHub: https://github.com/cirosantilli/test/issues/4
 - GitLab: https://gitlab.com/cirosantilli/test/issues/1
-- BitBucket: https://bitbucket.org/cirosantilli/test/issue/1
 
 # Line breaks at newline
 
@@ -13,7 +10,7 @@ line2
 
 commit SHA reference:
 
-- full URL: https://github.com/cirosantilli/test/commit/429ebfd5c2aebc7debe32347cb7b19869fa4dd29 https://gitlab.com/cirosantilli/test/commit/429ebfd5c2aebc7debe32347cb7b19869fa4dd29 https://bitbucket.org/cirosantilli/test/commit/429ebfd5c2aebc7debe32347cb7b19869fa4dd29 
+- full URL: https://github.com/cirosantilli/test/commit/429ebfd5c2aebc7debe32347cb7b19869fa4dd29 https://gitlab.com/cirosantilli/test/commit/429ebfd5c2aebc7debe32347cb7b19869fa4dd29
 - full SHA: 429ebfd5c2aebc7debe32347cb7b19869fa4dd29
 - 7 char SHA: 429ebfd
 - 6 char SHA: 429ebf deface
@@ -21,8 +18,13 @@ commit SHA reference:
 
 Commit non-SHA reference:
 
-- tag: https://github.com/cirosantilli/test/commit/annotated https://gitlab.com/cirosantilli/test/commit/annotated https://bitbucket.org/cirosantilli/test/commits/annotated
-- branch: https://github.com/cirosantilli/test/commit/branch-8 https://gitlab.com/cirosantilli/test/commit/branch-8 https://bitbucket.org/cirosantilli/test/commits/branch-8
+- tag: https://github.com/cirosantilli/test/commit/annotated https://gitlab.com/cirosantilli/test/commit/annotated
+- branch: https://github.com/cirosantilli/test/commit/branch-8 https://gitlab.com/cirosantilli/test/commit/branch-8
+
+Issue reference:
+
+- full URL: https://github.com/cirosantilli/test/issues/5
+- zero padded: #000000000000000000000000000000000000000000000000005 , https://github.com/isaacs/github/issues/372
 
 MR reference:
 
@@ -31,13 +33,18 @@ MR reference:
 
 Tag reference: https://github.com/cirosantilli/test/releases/tag/annotated
 
-# Line breaks at newline
-
-line1
-line2
-
 # Wide stuff
 
 mmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmm
 
-|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
+|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
+|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
+|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
+
+# Links
+
+Absolute go to domain: [/README.md](/README.md)
+
+Relative just break: [README.md](README.md).
+
+On GitHub 2015-01, existing files break to 406, and non existent ones to 404. Interesting.
