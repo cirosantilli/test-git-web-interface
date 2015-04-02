@@ -33,6 +33,18 @@ MR reference:
 
 Tag reference: https://github.com/cirosantilli/test/releases/tag/annotated
 
+## At mention
+
+- regular one to another user that exists: @cirosantilli-puppet
+
+- reserved GitHub usernames which don't 404.
+    - the at mention link gets created as of 2015-04-01: @about @pricing
+    - blacklisted that don't 404: @account @c @explore @help @jobs @login @logout @plans @security @settings @shop @signup @status @styleguide @wiki
+
+- Blacklist as of 2010 by an employee: http://www.quora.com/How-do-sites-prevent-vanity-URLs-from-colliding-with-future-features/answer/Kyle-Neath GitHub simply renames squatters. As of 2015-04-01, better was unblacklisted. @account @admin @api @better @blog @cache @changelog @codereview @compare @enterprise @gist @help @hosting @jobs @jobs @lists @login @logout @mine @news @organizations @plans @popular @projects @security @shop @signup @status @stories @styleguide @tour @translations @wiki
+
+- invalid usernames that don't 404 @README.md @CONTRIBUTING.md @500 @404 
+
 # Wide stuff
 
 mmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmm
