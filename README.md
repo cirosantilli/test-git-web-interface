@@ -164,4 +164,6 @@ Interesting branches and tags:
 
 -   [1970](1970): earliest possible commit with `git commit --date '@0 +0000'`
 
--   [future](future): commit in the far far future. TODO what is the maximal date for Git? See also: <http://stackoverflow.com/questions/19742345/what-is-the-format-for-date-parameter-of-git-commit/29289807>
+-   [future](future): commit in the far far future, on some date that does not show as 1970 on `git log`? See also: <http://stackoverflow.com/questions/19742345/what-is-the-format-for-date-parameter-of-git-commit/29289807>
+
+-   [future-max](future-max): commit at the latest possible pushable date of `2^63 - 1`. Larger dates up to `2^64 - 2` can be committed, but not pushed.
