@@ -22,3 +22,5 @@ git remote add ki      ssh://cirosantilli@cirosantilli.kilnhg.com/Repositories/G
 git remote add origin  git@github.com:cirosantilli/${REPO}.git
 git remote add pf      git@www.penflip.com:cirosantilli/${REPO}.git
 git remote add sf      ssh://cirosantilli@git.code.sf.net/p/cirosantilli-${REPO}/code
+# username: email
+git remote add vs      https://cirosantilli.visualstudio.com/DefaultCollection/_git/test

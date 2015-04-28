@@ -17,6 +17,7 @@ This repository is mirrored at:
 Mirrors without public view:
 
 - <https://cirosantilli.kilnhg.com/Code/Repositories/Group/test/Files>
+- <https://cirosantilli.visualstudio.com/DefaultCollection/_git/test> <http://webapps.stackexchange.com/questions/52512/tfs-visual-studio-online-make-a-query-publicly-visible>
 
 Mirrors without repository browsing:
 
@@ -27,8 +28,15 @@ Mirrors for which I can't create projects:
 - <https://kenai.com>
 - <https://code.google.com/p/cirosantilli-test> (to be closed)
 
-The SSH of those repos can be found at: [remotes.sh](remotes.sh),
-including other repos which don't have public view like Atlas.
+The SSH of those repos can be found at: [remotes.sh](remotes.sh), including other repos which don't have public view like Atlas.
+
+Web interfaces without public hosting service that I know of. Huge list: <https://git.wiki.kernel.org/index.php/Interfaces,_frontends,_and_tools#Web_Interfaces>
+
+- Gitweb. Distributed with Git. The Perl one.
+- cgit. Official self-host: <http://git.zx2c4.com/cgit>, GitHub mirror: <https://github.com/zx2c4/cgit>. Used by GNU Savannah. Written in C.
+- Gerrit. The Java one. <http://en.wikipedia.org/wiki/Gerrit_%28software%29>, 
+- GitList. The PHP one. <https://github.com/klaussilveira/gitlist>
+- WebGitNet. The .Net one. <https://github.com/otac0n/WebGitNet>
 
 ## Related repositories
 
@@ -167,3 +175,5 @@ Interesting branches and tags:
 -   [future](future): commit in the far far future, on some date that does not show as 1970 on `git log`? See also: <http://stackoverflow.com/questions/19742345/what-is-the-format-for-date-parameter-of-git-commit/29289807>
 
 -   [future-max](future-max): commit at the latest possible pushable date of `2^63 - 1`. Larger dates up to `2^64 - 2` can be committed, but not pushed.
+
+    As of 2015-04-02, that commits will show as the fist one on the UI commit list no matter its order on the commit tree, making it a good way to drive other people mad and then later make them scold you when they understand.
