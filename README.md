@@ -10,7 +10,7 @@ This repository is mirrored at:
 - <https://bitbucket.org/cirosantilli/test>
 - <https://github.com/cirosantilli/test>
 - <https://gitlab.com/cirosantilli/test>
-- <https://gitorious.org/cirosantilli-test/cirosantilli-test>
+- <https://hub.jazz.net/git/cirosantilli/test>
 - <https://sourceforge.net/projects/cirosantilli-test>
 - <https://www.assembla.com/code/cirosantilli-test/git/nodes>
 
@@ -26,17 +26,21 @@ Mirrors without repository browsing:
 Mirrors for which I can't create projects:
 
 - <https://kenai.com>
+
+Discontinued:
+
 - <https://code.google.com/p/cirosantilli-test> (to be closed)
+- <https://gitorious.org/cirosantilli-test/cirosantilli-test>, bough by GitLab. Will remain read only.
 
-The SSH of those repos can be found at: [remotes.sh](remotes.sh), including other repos which don't have public view like Atlas.
-
-Web interfaces without public hosting service that I know of. Huge list: <https://git.wiki.kernel.org/index.php/Interfaces,_frontends,_and_tools#Web_Interfaces>
+Web interfaces without public hosting service that I know of. Huge list: <https://git.wiki.kernel.org/index.php/Interfaces,_frontends,_and_tools#Web_Interfaces> Some interesting ones:
 
 - Gitweb. Distributed with Git. The Perl one.
 - cgit. Official self-host: <http://git.zx2c4.com/cgit>, GitHub mirror: <https://github.com/zx2c4/cgit>. Used by GNU Savannah. Written in C.
 - Gerrit. The Java one. <http://en.wikipedia.org/wiki/Gerrit_%28software%29>, 
 - GitList. The PHP one. <https://github.com/klaussilveira/gitlist>
 - WebGitNet. The .Net one. <https://github.com/otac0n/WebGitNet>
+
+The SSH of those repos can be found at: [remotes.sh](remotes.sh), including other repos which don't have public view like Atlas.
 
 ## Related repositories
 
@@ -117,9 +121,11 @@ Everything else goes:
 
 -   [;](;)
 
--   [\](\)
+-   [\\](\\)
 
 -   [-](-)
+
+-   [--](--)
 
 -   [-start-with-slash](-start-with-slash)
 
