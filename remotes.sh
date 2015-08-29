@@ -20,6 +20,7 @@ git remote add gl      git@gitlab.com:cirosantilli/${REPO}.git
 git remote add gll     http://root:5iveL!fe@localhost:3000/gitlab-org/gitlab-${REPO}.git
 git remote add ja      https://hub.jazz.net/git/cirosantilli/test
 git remote add ki      ssh://cirosantilli@cirosantilli.kilnhg.com/Repositories/Group/test
+git remote add lp      git+ssh://git.launchpad.net/cirosantilli-test-git
 git remote add origin  git@github.com:cirosantilli/${REPO}.git
 git remote add pf      git@www.penflip.com:cirosantilli/${REPO}.git
 git remote add sf      ssh://cirosantilli@git.code.sf.net/p/cirosantilli-${REPO}/code

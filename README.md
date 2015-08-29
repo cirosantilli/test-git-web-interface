@@ -8,6 +8,7 @@ This repository is mirrored at:
 
 - <http://repo.or.cz/w/cirosantilli-test.git>. Runs on [Girocco](http://repo.or.cz/w/girocco.git). TODO get working.
 - <https://bitbucket.org/cirosantilli/test>
+- <https://code.launchpad.net/cirosantilli-test-git>. Unable to use it for now: <http://superuser.com/questions/954490/launchpad-says-i-dont-have-an-ssh-key-but-i-do> <http://askubuntu.com/questions/13613/git-on-launchpad>
 - <https://github.com/cirosantilli/test>
 - <https://gitlab.com/cirosantilli/test>
 - <https://hub.jazz.net/git/cirosantilli/test>
@@ -183,3 +184,7 @@ Interesting branches and tags:
 -   [future-max](future-max): commit at the latest possible pushable date of `2^63 - 1`. Larger dates up to `2^64 - 2` can be committed, but not pushed.
 
     As of 2015-04-02, that commits will show as the fist one on the UI commit list no matter its order on the commit tree, making it a good way to drive other people mad and then later make them scold you when they understand.
+
+## Other RMS
+
+- `bzr`: cannot handle the path `\`. <https://bugs.launchpad.net/bzr-svn/+bug/81844>
