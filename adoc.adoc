@@ -8,4 +8,8 @@ Preamble. This paragraph has some magic properties just because it is before the
 
 == include
 
+GitHub renders it as a link as of 2015-09-23: no path transversal :-(
+
+include::.git/HEAD[]
+
 include::include.adoc[]
