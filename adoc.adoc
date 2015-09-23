@@ -5,3 +5,7 @@
 Preamble. This paragraph has some magic properties just because it is before the first h2. E.g., the Toc will go after it.
 
 == h2
+
+== include
+
+include::include.adoc[]
