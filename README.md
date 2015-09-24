@@ -8,6 +8,8 @@ This repository is mirrored at:
 
 - <http://repo.or.cz/w/cirosantilli-test.git>. Runs on [Girocco](http://repo.or.cz/w/girocco.git). TODO get working.
 - <https://bitbucket.org/cirosantilli/test>
+- <https://cirosantilli.beanstalkapp.com/test> Company called Wildbit. builtwith.com and job offerings say Rails.
+- <https://cirosantillitest.codeplex.com/>. By Microsoft. Rejects this repo because of the future-max commit, so I made placeholder to squat the project name.
 - <https://code.launchpad.net/cirosantilli-test-git>. Unable to use it for now: <http://superuser.com/questions/954490/launchpad-says-i-dont-have-an-ssh-key-but-i-do> <http://askubuntu.com/questions/13613/git-on-launchpad>
 - <https://github.com/cirosantilli/test>
 - <https://gitlab.com/cirosantilli/test>
