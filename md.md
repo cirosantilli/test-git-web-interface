@@ -202,7 +202,49 @@ no pipes:
 
 ## Link
 
-Automatic: <http://example.com>.
+Automatic: <http://example.com>
+
+Weird characters: with and without angle brackets:
+
+`'` <http://example.com/ab'cd> http://example.com/ab'cd
+
+`"` <http://example.com/ab"cd> http://example.com/ab"cd
+
+`!` <http://example.com/ab!cd> http://example.com/ab!cd
+
+`$` <http://example.com/ab$cd> http://example.com/ab$cd
+
+`&` <http://example.com/ab&cd> http://example.com/ab&cd
+
+`(` <http://example.com/ab(cd> http://example.com/ab(cd
+
+`)` <http://example.com/ab)cd> http://example.com/ab)cd
+
+`*` <http://example.com/ab*cd> http://example.com/ab*cd
+
+`+` <http://example.com/ab+cd> http://example.com/ab+cd
+
+`,` <http://example.com/ab,cd> http://example.com/ab,cd
+
+`-` <http://example.com/ab-cd> http://example.com/ab-cd
+
+`.` <http://example.com/ab.cd> http://example.com/ab.cd
+
+`/` <http://example.com/ab/cd> http://example.com/ab/cd
+
+`:` <http://example.com/ab:cd> http://example.com/ab:cd
+
+`;` <http://example.com/ab;cd> http://example.com/ab;cd
+
+`=` <http://example.com/ab=cd> http://example.com/ab=cd
+
+`?` <http://example.com/ab?cd> http://example.com/ab?cd
+
+`@` <http://example.com/ab@cd> http://example.com/ab@cd
+
+`_` <http://example.com/ab_cd> http://example.com/ab_cd
+
+`~` <http://example.com/ab~cd> http://example.com/ab~cd
 
 ### Relative links
 
