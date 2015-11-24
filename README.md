@@ -112,8 +112,6 @@ The only filenames which are not valid are:
 
 Everything else goes:
 
--   [Basmala ﷽](https://github.com/cirosantilli/test-git-web-interface/tree/fc0bf02b85e42e649127d964057e594361c4f305), apparently the widest Unicode glyph: <https://twitter.com/mikko/status/325880194277732352>
-
 -   [?a=b&c=d](?a=b&c=d)
 
 -   ["](")
@@ -143,6 +141,16 @@ Everything else goes:
     - [a b](a b)
 
 -   Case insensitive filename conflict attempt: [CASE](CASE), [case](case) and [CASE-DIR](CASE-DIR), [case-dir](case-dir). Interestingly, however, `.GIT` fails: <https://gitlab.com/cirosantilli/test-GIT/tree/master>
+
+-   Very tall and wide characters. [More details](https://www.quora.com/What-are-the-coolest-Unicode-characters/answer/Ciro-Santilli-%E5%85%AD%E5%9B%9B%E4%BA%8B%E4%BB%B6-%E6%B3%95%E8%BD%AE%E5%8A%9F-%E7%BA%B3%E7%B1%B3%E6%AF%94%E4%BA%9A-%E5%A8%81%E8%A7%86).
+
+    -   Basmala ﷽
+
+        <https://github.com/cirosantilli/test-git-web-interface/blob/fc0bf02b85e42e649127d964057e594361c4f305/%EF%B7%BD%EF%B7%BD%EF%B7%BD%EF%B7%BD%EF%B7%BD%EF%B7%BD%EF%B7%BD%EF%B7%BD%EF%B7%BD%EF%B7%BD%EF%B7%BD%EF%B7%BD%EF%B7%BD%EF%B7%BD%EF%B7%BD%EF%B7%BD%EF%B7%BD%EF%B7%BD%EF%B7%BD%EF%B7%BD%EF%B7%BD%EF%B7%BD%EF%B7%BD%EF%B7%BD%EF%B7%BD%EF%B7%BD%EF%B7%BD%EF%B7%BD%EF%B7%BD%EF%B7%BD%EF%B7%BD%EF%B7%BD%EF%B7%BD%EF%B7%BD%EF%B7%BD%EF%B7%BD%EF%B7%BD%EF%B7%BD%EF%B7%BD%EF%B7%BD%EF%B7%BD%EF%B7%BD%EF%B7%BD%EF%B7%BD%EF%B7%BD%EF%B7%BD%EF%B7%BD%EF%B7%BD%EF%B7%BD%EF%B7%BD%EF%B7%BD%EF%B7%BD%EF%B7%BD%EF%B7%BD%EF%B7%BD%EF%B7%BD%EF%B7%BD%EF%B7%BD%EF%B7%BD%EF%B7%BD%EF%B7%BD%EF%B7%BD%EF%B7%BD%EF%B7%BD%EF%B7%BD%EF%B7%BD%EF%B7%BD%EF%B7%BD%EF%B7%BD%EF%B7%BD%EF%B7%BD%EF%B7%BD%EF%B7%BD%EF%B7%BD%EF%B7%BD%EF%B7%BD%EF%B7%BD%EF%B7%BD%EF%B7%BD%EF%B7%BD>
+
+    -   Unicode Thai combining characters ส็็็็็็็็็็็็็็็็็็็็็็็็็็็็็็็็็็็็็็็็็็็็็็็็็็็็็็็็็็็็็็็็็็็็็็็็็็็็็็็็
+
+        <https://github.com/cirosantilli/test-git-web-interface/blob/de4a8e71fe6a1fe7f6e95b864c833b0e6965996b/%E0%B8%AA%E0%B9%87%E0%B9%87%E0%B9%87%E0%B9%87%E0%B9%87%E0%B9%87%E0%B9%87%E0%B9%87%E0%B9%87%E0%B9%87%E0%B9%87%E0%B9%87%E0%B9%87%E0%B9%87%E0%B9%87%E0%B9%87%E0%B9%87%E0%B9%87%E0%B9%87%E0%B9%87%E0%B9%87%E0%B9%87%E0%B9%87%E0%B9%87%E0%B9%87%E0%B9%87%E0%B9%87%E0%B9%87%E0%B9%87%E0%B9%87%E0%B9%87%E0%B9%87%E0%B9%87%E0%B9%87%E0%B9%87%E0%B9%87%E0%B9%87%E0%B9%87%E0%B9%87%E0%B9%87%E0%B9%87%E0%B9%87%E0%B9%87%E0%B9%87%E0%B9%87%E0%B9%87%E0%B9%87%E0%B9%87%E0%B9%87%E0%B9%87%E0%B9%87%E0%B9%87%E0%B9%87%E0%B9%87%E0%B9%87%E0%B9%87%E0%B9%87%E0%B9%87%E0%B9%87%E0%B9%87%E0%B9%87%E0%B9%87%E0%B9%87%E0%B9%87%E0%B9%87%E0%B9%87%E0%B9%87%E0%B9%87%E0%B9%87%E0%B9%87%E0%B9%87%E0%B9%87%E0%B9%87%E0%B9%87%E0%B9%87%E0%B9%87%E0%B9%87%E0%B9%87%E0%B9%87%E0%B9%87>
 
 Magic Git files:
 
