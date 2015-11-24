@@ -112,6 +112,8 @@ The only filenames which are not valid are:
 
 Everything else goes:
 
+-   [Basmala ﷽](https://github.com/cirosantilli/test-git-web-interface/tree/fc0bf02b85e42e649127d964057e594361c4f305), apparently the widest Unicode glyph: <https://twitter.com/mikko/status/325880194277732352>
+
 -   [?a=b&c=d](?a=b&c=d)
 
 -   ["](")
@@ -189,4 +191,4 @@ Interesting branches and tags:
 
 ## Other RMS
 
-- `bzr`: cannot handle the path `\`. <https://bugs.launchpad.net/bzr-svn/+bug/81844>
+- `bzr`: cannot handle the path with a single backslash \. <https://bugs.launchpad.net/bzr-svn/+bug/81844>
