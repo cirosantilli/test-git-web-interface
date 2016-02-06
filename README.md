@@ -14,6 +14,7 @@ This repository is mirrored at:
 - <https://github.com/cirosantilli/test>
 - <https://gitlab.com/cirosantilli/test>
 - <https://hub.jazz.net/git/cirosantilli/test>
+- <https://notabug.org/cirosantilli/test-git-web-interface> (500 initially <http://archive.is/uhCRP>)
 - <https://sourceforge.net/projects/cirosantilli-test>
 - <https://www.assembla.com/code/cirosantilli-test/git/nodes>
 
@@ -42,6 +43,7 @@ Web interfaces without public hosting service that I know of. Huge list: <https:
 - Gerrit. The Java one. <http://en.wikipedia.org/wiki/Gerrit_%28software%29>, 
 - GitList. The PHP one. <https://github.com/klaussilveira/gitlist>
 - WebGitNet. The .Net one. <https://github.com/otac0n/WebGitNet>
+- Gogs. The Go one. Modified version at: <https://notabug.org/>
 
 The SSH of those repos can be found at: [remotes.sh](remotes.sh), including other repos which don't have public view like Atlas.
 
@@ -142,7 +144,7 @@ Everything else goes:
 
 -   Case insensitive filename conflict attempt: [CASE](CASE), [case](case) and [CASE-DIR](CASE-DIR), [case-dir](case-dir). Interestingly, however, `.GIT` fails: <https://gitlab.com/cirosantilli/test-GIT/tree/master>
 
--   Very tall and wide characters. [More details](https://www.quora.com/What-are-the-coolest-Unicode-characters/answer/Ciro-Santilli-%E5%85%AD%E5%9B%9B%E4%BA%8B%E4%BB%B6-%E6%B3%95%E8%BD%AE%E5%8A%9F-%E7%BA%B3%E7%B1%B3%E6%AF%94%E4%BA%9A-%E5%A8%81%E8%A7%86).
+-   Very tall or wide Unicode glyphs. [More details](https://www.quora.com/What-are-the-coolest-Unicode-characters/answer/Ciro-Santilli-%E5%85%AD%E5%9B%9B%E4%BA%8B%E4%BB%B6-%E6%B3%95%E8%BD%AE%E5%8A%9F-%E7%BA%B3%E7%B1%B3%E6%AF%94%E4%BA%9A-%E5%A8%81%E8%A7%86).
 
     -   Basmala ﷽
 
