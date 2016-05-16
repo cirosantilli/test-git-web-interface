@@ -57,6 +57,7 @@ Tests that are very large will not be included here to keep this repository smal
 
 There are also some tests that could not be included here conveniently:
 
+- <https://github.com/cirosantilli/test-commit-many-parents>
 - <https://github.com/cirosantilli/test-control-chars>
 - <https://github.com/cirosantilli/test-empty-commit>
 - <https://github.com/cirosantilli/test-empty-subdir>
@@ -66,13 +67,13 @@ There are also some tests that could not be included here conveniently:
 - <https://github.com/cirosantilli/test-long-filename-256>
 - <https://github.com/cirosantilli/test-min-sane>
 - <https://github.com/cirosantilli/test-refs-api-tags-pulls-block>
+- <https://github.com/cirosantilli/test-streak>, <https://github.com/cirosantilli/test-streak-1000>
 - <https://github.com/cirosantilli/test-submodule-contributing>
 - <https://github.com/cirosantilli/test-symlink-contributing>
 - <https://github.com/cirosantilli/test-symlink-middle-null>
 - <https://github.com/cirosantilli/test-symlink-self>
 - <https://github.com/cirosantilli/test-symlink-start-null>
 - <https://gitlab.com/cirosantilli/test-GIT/tree/master> (fails on GitHub)
-- <https://github.com/cirosantilli/test-streak>, <https://github.com/cirosantilli/test-streak-1000>
 
 Other similar repos from other people:
 
