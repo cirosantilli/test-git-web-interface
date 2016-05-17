@@ -1,4 +1,4 @@
-rm -rf repo clone
-mkdir -p repo
-cd repo
+rm -rf repo.tmp clone.tmp
+mkdir -p repo.tmp
+cd repo.tmp
 git init -q

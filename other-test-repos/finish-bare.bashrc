@@ -1,1 +1,1 @@
-git clone -q repo clone
+git clone -q repo.tmp clone.tmp

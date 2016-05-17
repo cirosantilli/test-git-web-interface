@@ -9,5 +9,6 @@ It is sometimes interesting to generate a ton of commits to test some edge case,
 - `openssl dgst -sha1`: 22s
 - `git hash-object --stdin -w`: 21s
 - `git hash-object --stdin`: 20s
-- `sha1sum` Coreutils: 1.4s. TODO: why so much faster than `hash-object`? This is minimum bottleneck per CPU. We can reuse identical blobs. 
-- touch: 0.9s (same on ramfs). This is the minimum IO bottleneck. Since the CPU bottleneck is not much above, parallelization is not the trouble.
+- `sha1sum` Coreutils: 1.4s.
+- touch: 0.9s (same on ramfs).
+- `time python3 <(printf 'import hashlib; import sys;\nfor i in range(1000): print(hashlib.sha1(str(i).encode("ascii")).hexdigest())')`: 0.14s TODO: why so much faster than `hash-object`? This is minimum bottleneck per CPU.
