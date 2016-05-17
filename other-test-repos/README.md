@@ -1,4 +1,6 @@
-# Other tests
+# Other test repositories
+
+Scripts in this directory can be used to generate the more complex test repositories.
 
 Tests that are very large will not be included here to keep this repository small:
 
@@ -18,7 +20,7 @@ There are also some tests that could not be included here conveniently:
 - <https://github.com/cirosantilli/test-long-filename-256>
 - <https://github.com/cirosantilli/test-min-sane>
 - <https://github.com/cirosantilli/test-refs-api-tags-pulls-block>
-- <https://github.com/cirosantilli/test-streak>, <https://github.com/cirosantilli/test-streak-1000>
+- <https://github.com/cirosantilli/test-streak>, <https://github.com/cirosantilli/test-streak-1000>, [streak.py](streak.py), <http://stackoverflow.com/questions/20099235/who-is-the-user-with-the-longest-streak-on-github/27742165#27742165>
 - <https://github.com/cirosantilli/test-submodule-contributing>
 - <https://github.com/cirosantilli/test-symlink-contributing>
 - <https://github.com/cirosantilli/test-symlink-middle-null>
