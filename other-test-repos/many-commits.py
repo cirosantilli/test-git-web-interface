@@ -1,7 +1,9 @@
 #!/usr/bin/env python3
 
 """
-You may want to create this in a tmpfs or ramfs, since deleting the generate repository can take a **huge** ammount of time.
+Packing is important, or else deleting and pushing the generated repository could take a **huge** ammount of time.
+
+For extra safety, use a tmpfs or ramfs:
 
     ulimit -Sv 500000
     sudo umount tmp && \
@@ -21,8 +23,12 @@ The tags can be used to push by parts to GitHub, which does not accept 1M at onc
 
 import datetime
 import subprocess
+import time
 
 import util
+
+email = b'ciro.santili@gmail.com'
+name = b'Ciro Santilli'
 
 util.init()
 
@@ -32,8 +38,18 @@ n = 1000000
 percent = (n / 100)
 p = 0
 for i in range(n):
-    commit, _, _ = util.save_commit_object(tree, (commit,),
-            message=(str(i).encode('ascii')))
+    now = int(time.time())
+    commit, _, _ = util.save_commit_object(
+        tree,
+        (commit,),
+        author_date_s=now,
+        author_email=email,
+        author_name=name,
+        committer_date_s=now,
+        committer_email=email,
+        committer_name=name,
+        message=(str(i).encode('ascii')),
+    )
     if i % percent == 0:
         print(p)
         print(datetime.datetime.now())
