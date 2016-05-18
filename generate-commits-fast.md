@@ -2,6 +2,8 @@
 
 It is sometimes interesting to generate a ton of commits to test some edge case, but it is not trivial to go way above 1000 commits in a reasonable amount of time.
 
+Bottom line: don't use `git`. The manual Python code under [other-test-repos](other-test-repos/) presents a huge speedup. TODO: try gitlib2.
+
 1000 operations take on a my computer:
 
 - echo to file, add and commit: 43s

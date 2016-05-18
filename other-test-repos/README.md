@@ -7,6 +7,7 @@ Tests that are very large will not be included here to keep this repository smal
 - <https://github.com/cirosantilli/test-deep>
 - <https://github.com/cirosantilli/test-diff-many-files>
 - <https://github.com/cirosantilli/test-pr-many-commits>
+- <https://github.com/cirosantilli/test-many-commits-1m> [many-commits.py](many-commits.py)
 
 There are also some tests that could not be included here conveniently:
 
@@ -27,6 +28,7 @@ There are also some tests that could not be included here conveniently:
 - <https://github.com/cirosantilli/test-symlink-self>
 - <https://github.com/cirosantilli/test-symlink-start-null>
 - <https://gitlab.com/cirosantilli/test-GIT/tree/master> (fails on GitHub)
+- <https://gitlab.com/cirosantilli/test-commit-many-parents-1m>
 
 Other similar repos from other people:
 

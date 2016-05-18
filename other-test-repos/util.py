@@ -1,3 +1,8 @@
+"""
+TODO packfile operations instead of just object. Could be more efficient.
+But also harder to implement that format.
+"""
+
 import hashlib
 import os
 import shutil
@@ -30,7 +35,7 @@ default_message = b'a'
 default_parents = ()
 
 def init():
-    repo = 'repo.tmp'
+    repo = 'tmp/repo.tmp'
     for d in (repo, 'clone.tmp'):
         shutil.rmtree(d, ignore_errors=True)
     os.mkdir(repo)
@@ -66,7 +71,7 @@ def save_commit_object(
         committer_email=default_committer_email,
         committer_date=default_committer_date,
         message=default_message):
-    if parents:
+    if parents and parents[0]:
         parents_bytes = b''
         sep = b'\nparent '
         parents_bytes = sep + sep.join(parents) + b'\n'
