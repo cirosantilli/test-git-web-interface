@@ -1,36 +1,11 @@
-Tests to see how GitHub and GitLab work exactly and to detect bugs with them.
+# Test
 
-Tests that are very large will not be included here to keep this repository small:
+Tests to see how Git web interfaces like GitHub and GitLab work exactly detect bugs.
 
-- <https://github.com/cirosantilli/test-deep>
-- <https://github.com/cirosantilli/test-diff-many-files>
-- <https://github.com/cirosantilli/test-pr-many-commits>
-
-There are also some tests that could not be included here conveniently:
-
-- <https://github.com/cirosantilli/test-empty-commit>
-- <https://github.com/cirosantilli/test-empty-subdir>
-- <https://github.com/cirosantilli/test-long-filename>
-
-This repository is mirrored at:
-
-- <https://github.com/cirosantilli/test>
-- <https://gitlab.com/cirosantilli/test>
-
-Other similar repos from other people:
-
-- <https://github.com/joernchen/evil_stuff>
-
-The most interesting files on this repository are:
-
--   [markdown.md](markdown.md)
-
--   whitespace filename edge cases:
-
-    - [single whitespace filename](%20)
-    - [double whitespace directory name](%20%20/) and [it's README](%20%20/README.md)
-    - [a b](a b)
-
-Some interesting branches include:
-
-- [`hasslash/a`](../hasslash/a): branch inside sub-directory
+1.  [Other test repos](other-test-repos/README.md)
+1.  [Mirrors](mirrors.md)
+1.  [Generate commits fast](generate-commits-fast.md)
+1.  Tests
+    1.  [Files](files.md)
+    1.  [Refs](refs.md)
+1.  [Other CMS](other-cms.md)
