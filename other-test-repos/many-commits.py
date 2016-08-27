@@ -3,6 +3,8 @@
 """
 Packing is important, or else deleting and pushing the generated repository could take a **huge** ammount of time.
 
+This method gets slower as it goes. 1M are fast to generate, but 10M require running for 24h nonstop.
+
 For extra safety, use a tmpfs or ramfs:
 
     ulimit -Sv 500000
@@ -65,7 +67,4 @@ for i in range(n):
         subprocess.check_output(['git', 'prune-packed'])
 
         subprocess.check_output(['git', 'tag', str(p), commit])
-
-# Finish.
 util.create_master(commit)
-util.clone()

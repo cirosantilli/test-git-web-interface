@@ -21,3 +21,5 @@ Interesting branches and tags:
 -   [future-max](future-max): commit at the latest possible pushable date of `2^63 - 1`. Larger dates up to `2^64 - 2` can be committed, but not pushed.
 
     As of 2015-04-02, that commits will show as the fist one on the UI commit list no matter its order on the commit tree, making it a good way to drive other people mad and then later make them scold you when they understand.
+
+-   emoji: e.g. [🚿](🚿). <https://github.com/isaacs/github/issues/752>
