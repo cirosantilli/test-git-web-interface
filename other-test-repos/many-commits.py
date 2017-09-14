@@ -29,42 +29,35 @@ import time
 
 import util
 
-email = b'ciro.santili@gmail.com'
-name = b'Ciro Santilli'
+email = b'a@a.com'
+name = b''
 
 util.init()
 
 tree = util.create_tree_with_one_file()
 commit = None
 n = 1000000
-percent = (n / 100)
-p = 0
 for i in range(n):
     now = int(time.time())
     commit, _, _ = util.save_commit_object(
         tree,
         (commit,),
-        author_date_s=now,
+        author_date_s=0,
         author_email=email,
         author_name=name,
-        committer_date_s=now,
+        committer_date_s=0,
         committer_email=email,
         committer_name=name,
-        message=(str(i).encode('ascii')),
+        message=b'',
     )
-    if i % percent == 0:
-        print(p)
+    if i % 100000 == 0:
+        print(i)
         print(datetime.datetime.now())
-        p += 1
-
         # Lose objects are too large and blow up the tmpfs.
-
         # Does clean packets, but the calculation takes more and more memory,
         # and slows down and blows up at the end. TODO which subcommand blows up eactly?.
         #subprocess.check_output(['git', 'gc'])
-
         subprocess.check_output(['git', 'repack'])
         subprocess.check_output(['git', 'prune-packed'])
-
-        subprocess.check_output(['git', 'tag', str(p), commit])
+        subprocess.check_output(['git', 'tag', str(i), commit])
 util.create_master(commit)
