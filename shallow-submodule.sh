@@ -82,19 +82,27 @@ git add .gitmodules
 git commit -m 'shallow'
 cd ..
 
-git clone --depth 1 --recursive "file://$(pwd)/top" top-clone
+git clone --recursive "file://$(pwd)/top" top-clone
 git --git-dir top-clone/.git/modules/mod log
 # two commits
 
-git clone --depth 1 --recursive "file://$(pwd)/top-shallow" top-shallow-clone
+git clone --recursive "file://$(pwd)/top-shallow" top-shallow-clone
 git --git-dir top-shallow-clone/.git/modules/mod log
 # one commit
 
-git clone --depth 1 --recursive "file://$(pwd)/top-branch" top-branch-clone
+git clone --recursive "file://$(pwd)/top-branch" top-branch-clone
 git --git-dir top-branch-clone/.git/modules/mod log
 # two commits
 
-git clone --depth 1 --recursive "file://$(pwd)/top-branch-shallow" top-branch-shallow-clone
+git clone --recursive "file://$(pwd)/top-branch-shallow" top-branch-shallow-clone
 git --git-dir top-branch-shallow-clone/.git/modules/mod log
 # locally: one commit
 # github 2017-11, git 2.14.1: two commits
+
+git clone --depth 1 "file://$(pwd)/mod" mod-clone
+git --git-dir mod-clone/.git log
+# one commit
+
+git clone --depth 1 "file://$(pwd)/mod-branch" mod-branch-clone
+git --git-dir mod-branch-clone/.git log
+# one commit
