@@ -1,7 +1,10 @@
 = h1
-
-:toc:
-:toc-placement: preamble
+:idprefix:
+:idseparator: -
+:sectanchors:
+:sectlinks:
+:sectnums:
+:toc: preamble
 
 Preamble. This paragraph has some magic properties just because it is before the first h2. E.g., the Toc will go after it.
 
@@ -14,3 +17,13 @@ GitHub renders it as a link as of 2015-09-23: no path transversal :-(
 include::.git/HEAD[]
 
 include::include.adoc[]
+
+== Another section
+
+<<another-section>>
+
+<<Another section>>
+
+<<another-section,asdfqwer>>
+
+[[]]
