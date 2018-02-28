@@ -56,12 +56,20 @@ image::png.png[]
 [[my-table,My table]]
 .My amazing table
 |===
-|Name of Column 1 |Name of Column 2 |Name of Column 3
 |Cell in column 1, row 1 |Cell in column 2, row 1 |Cell in column 3, row 1
 |Cell in column 1, row 2 |Cell in column 2, row 2 |Cell in column 3, row 2
 |===
 
-<<my-table>>
+Link to table: <<my-table>>
+
+Table with header:
+
+[options="header"]
+|===
+|Name of column 1 |Name of column 2 |Name of column 3
+|Cell in column 1, row 1 |Cell in column 2, row 1 |Cell in column 3, row 1
+|Cell in column 1, row 2 |Cell in column 2, row 2 |Cell in column 3, row 2
+|===
 
 === Table align
 
