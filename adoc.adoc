@@ -63,6 +63,23 @@ image::png.png[]
 
 <<my-table>>
 
+=== Table align
+
+[cols="<,^,>"]
+|===
+|long 1
+|long 2
+|long 3
+
+|a
+|b
+|c
+
+|d
+|e
+|f
+|===
+
 == include
 
 GitHub renders it as a link as of 2015-09-23: no path transversal :-(
