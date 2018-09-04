@@ -20,6 +20,7 @@ There are also some tests that could not be included here conveniently:
 - <https://github.com/cirosantilli/test-long-filename-1024>
 - <https://github.com/cirosantilli/test-long-filename-256>
 - <https://github.com/cirosantilli/test-min-sane>
+- <https://github.com/cirosantilli/test-octopus-100k> <https://github.com/isaacs/github/issues/1344>
 - <https://github.com/cirosantilli/test-refs-api-tags-pulls-block>
 - <https://github.com/cirosantilli/test-streak>, <https://github.com/cirosantilli/test-streak-1000>, [streak.py](streak.py), <http://stackoverflow.com/questions/20099235/who-is-the-user-with-the-longest-streak-on-github/27742165#27742165>
 - <https://github.com/cirosantilli/test-submodule-contributing>
