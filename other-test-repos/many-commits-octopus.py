@@ -1,5 +1,14 @@
 #!/usr/bin/env python3
 
+"""
+100k:
+
+- generates in seconds
+- size after script: 4Gb
+- git gc time: 1h30 min on https://github.com/cirosantilli/linux-kernel-module-cheat/tree/83b36867cf06ffdca3ce04296a8568d4f37ea13b#p51
+- size afte git gc: 78Mb
+"""
+
 import datetime
 import subprocess
 import time

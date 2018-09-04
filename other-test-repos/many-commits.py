@@ -26,6 +26,7 @@ The tags can be used to push by parts to GitHub, which does not accept 1M at onc
 import datetime
 import subprocess
 import time
+import sys
 
 import util
 
@@ -36,7 +37,10 @@ util.init()
 
 tree = util.create_tree_with_one_file()
 commit = None
-n = 1000000
+if len(sys.argv) > 1:
+    n = int(sys.argv[1])
+else:
+    n = 1000
 for i in range(n):
     now = int(time.time())
     commit, _, _ = util.save_commit_object(
