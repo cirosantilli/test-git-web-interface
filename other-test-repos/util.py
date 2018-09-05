@@ -1,3 +1,5 @@
+#!/usr/bin/env python
+
 """
 TODO packfile operations instead of just object. Could be more efficient.
 But also harder to implement that format.
@@ -12,6 +14,8 @@ import zlib
 repo_dir = 'repo.tmp'
 git_dir = b'.git'
 objects_dir = os.path.join(git_dir, b'objects')
+refs_dir = os.path.join(git_dir, b'refs')
+tags_dir = os.path.join(refs_dir, b'tags')
 
 # Tree parameters.
 default_blob_basename = b'a'
@@ -86,6 +90,23 @@ def save_commit_object(
             committer_name, committer_email, str(committer_date_s).encode('ascii'), committer_date_tz,
             message)
     return save_object(b'commit', commit_content) + (commit_content,)
+
+def save_tag_object(
+        object_sha_ascii,
+        tag_name,
+        object_type='commit',
+        user_name=default_author_name,
+        user_email=default_author_email,
+        date_s=default_author_date_s,
+        date_tz=default_author_date_tz,
+        message=default_message):
+    content = b'object %s\ntype %s\ntag %s\ntagger %s <%s> %s %s\n\n%s' % \
+      (object_sha_ascii, object_type, tag_name, user_name, user_email, str(date_s).encode('ascii'), date_tz, message)
+    tag_sha_ascii, tag_sha = save_object(b'tag', content)
+    os.makedirs(tags_dir, exist_ok=True)
+    with open(os.path.join(tags_dir, tag_name), 'w') as tag_file:
+        tag_file.write(tag_sha_ascii.decode('ascii') + '\n')
+    return tag_sha_ascii, tag_sha, content
 
 def get_git_hash_object(obj_type, input):
     cmd = [b'git', b'hash-object', b'--stdin', b'-t', obj_type]
