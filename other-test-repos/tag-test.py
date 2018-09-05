@@ -1,5 +1,9 @@
 #!/usr/bin/env python3
 
+"""
+https://stackoverflow.com/questions/10986615/what-is-the-format-of-a-git-tag-object-and-how-to-calculate-its-sha/52193441#52193441
+"""
+
 import datetime
 import subprocess
 import time
