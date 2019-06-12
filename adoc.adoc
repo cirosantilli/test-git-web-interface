@@ -5,6 +5,7 @@
 :sectlinks:
 :sectnums:
 :toc: preamble
+:stem:
 
 Preamble. This paragraph has some magic properties just because it is before the first h2. E.g., the Toc will go after it.
 
@@ -124,3 +125,27 @@ https://github.com/asciidoctor/asciidoctor/issues/1208
 my C++ is great C++ and yours
 
 my {cpp} is great {cpp} and yours
+
+== Math
+
+asciimath: stem:[sqrt(4) = 2]
+
+latexmath: latexmath:[\sqrt{4} = 2]
+
+asciimath stem:[[[a,b\],[c,d\]\]]
+
+latexmath: latexmath:[\begin{bmatrix}a & b\\c & d\end{bmatrix}]
+
+asciimath:
+
+[stem]
+++++
+sqrt(4) = 2
+++++
+
+latexmath:
+
+[latexmath]
+++++
+\sqrt{4} = 2
+++++
