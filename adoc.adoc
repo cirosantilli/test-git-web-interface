@@ -1,13 +1,17 @@
 = Asciidoc
+:description: The perfect emulation setup to study and develop the <<linux-kernel>> v5.1, kernel modules, <<qemu-buildroot-setup,QEMU>>, <<gem5-buildroot-setup,gem5>> and x86_64, ARMv7 and ARMv8 <<userland-assembly,userland>> and <<baremetal-setup,baremetal>> assembly, <<c,ANSI C>>, <<cpp,C++>> and <<posix,POSIX>>. <<gdb>> and <<kgdb>> just work. Powered by <<about-the-qemu-buildroot-setup,Buildroot>> and <<about-the-baremetal-setup,crosstool-NG>>.  Highly automated. Thoroughly documented. Automated <<test-this-repo,tests>>. "Tested" in an Ubuntu 18.04 host.
 :idprefix:
 :idseparator: -
+:nofooter:
 :sectanchors:
 :sectlinks:
+:sectnumlevels: 6
 :sectnums:
-:toc: preamble
-:stem:
+:toc-title:
+:toc: macro
+:toclevels: 6
 
-Preamble. This paragraph has some magic properties just because it is before the first h2. E.g., the Toc will go after it.
+toc::[]
 
 == Headings
 
@@ -18,6 +22,20 @@ Preamble. This paragraph has some magic properties just because it is before the
 <<Heading 3 1>>
 
 <<heading-3-1,asdfqwer>>
+
+==== Heading 4
+
+===== Heading 5
+
+====== Heading 6
+
+======= Heading 7
+
+======== Heading 8
+
+========= Heading 9
+
+Deeeep.
 
 == Hyperlinks
 
@@ -51,12 +69,12 @@ Escape list: https://stackoverflow.com/questions/40972082/literal-asterisk-in-th
 
 == Images
 
-[[my-png,My png]]
+[[my-png]]
 .My amazing png
 [link=http://www.flickr.com/photos/javh/5448336655]
 image::png.png[]
 
-<<my-png>>
+Link to image: <<my-png>>
 
 == Tables
 
@@ -136,16 +154,18 @@ asciimath stem:[[[a,b\],[c,d\]\]]
 
 latexmath: latexmath:[\begin{bmatrix}a & b\\c & d\end{bmatrix}]
 
-asciimath:
+asciimath <<math-stem-block-test>>:
 
-[stem]
+[stem,id=math-stem-block-test]
+.Stem block test
 ++++
 sqrt(4) = 2
 ++++
 
-latexmath:
+latexmath <<math-stem-block-test>>:
 
-[latexmath]
+[latexmath,id=math-latexmath-block-test]
+.Latexmath block test
 ++++
 \sqrt{4} = 2
 ++++
