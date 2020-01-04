@@ -8,6 +8,7 @@ Tests that are very large will not be included here to keep this repository smal
 - <https://github.com/cirosantilli/test-diff-many-files>
 - <https://github.com/cirosantilli/test-pr-many-commits>
 - <https://github.com/cirosantilli/test-many-commits-1m> [many-commits.py](many-commits.py)
+- <https://github.com/cirosantilli/test-asciidoc-large-variable>
 
 There are also some tests that could not be included here conveniently:
 

@@ -3,6 +3,7 @@
 :idprefix:
 :idseparator: -
 :nofooter:
+:stem:
 :sectanchors:
 :sectlinks:
 :sectnumlevels: 6
@@ -46,8 +47,6 @@ link:adoc.adoc
 link::adoc.adoc
 
 link:adoc.adoc[]
-
-link::adoc.adoc[]
 
 link:++a b++[link with spaces]
 
@@ -162,10 +161,18 @@ asciimath <<math-stem-block-test>>:
 sqrt(4) = 2
 ++++
 
-latexmath <<math-stem-block-test>>:
+latexmath <<math-latexmath-block-test>>:
 
 [latexmath,id=math-latexmath-block-test]
 .Latexmath block test
 ++++
 \sqrt{4} = 2
 ++++
+
+== xref
+
+TODO xref across documents:
+
+....
+xref:adoc2.adoc/my-h2-1[]
+....
