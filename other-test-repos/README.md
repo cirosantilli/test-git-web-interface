@@ -31,6 +31,7 @@ There are also some tests that could not be included here conveniently:
 - <https://github.com/cirosantilli/test-symlink-start-null>
 - <https://gitlab.com/cirosantilli/test-GIT/tree/master> (fails on GitHub)
 - <https://gitlab.com/cirosantilli/test-commit-many-parents-1m>
+- <https://github.com/cirosantilli/test-github-many-issue-templates>
 
 Other similar repos from other people:
 
