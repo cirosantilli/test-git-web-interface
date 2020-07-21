@@ -12,3 +12,6 @@ Tests to see how Git web interfaces like GitHub and GitLab work exactly detect b
 1.  asciidoc
     1.  [adoc.adoc](adoc.adoc)
     1.  [xref-header-infinite-loop.adoc](xref-header-infinite-loop.adoc)
+
+<img src="svg.svg">
+<img src="svg-foreignObject.svg">

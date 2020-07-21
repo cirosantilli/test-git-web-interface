@@ -85,4 +85,5 @@ XSS attempts:
 - [<script>](<script>)
 - `<script src="data:text;utf8,alert('xss')">`
 - [svg.svg](svg.svg), with an XSS attempt
+  - [svg-foreignObject.svg](svg-foreignObject.svg), CSS + XSS attempt
 - [sym-xss](sym-xss). It's path is an XSS attempt.
