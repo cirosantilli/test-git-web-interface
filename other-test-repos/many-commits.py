@@ -7,20 +7,26 @@ This method gets slower as it goes. 1M are fast to generate, but 10M require run
 
 For extra safety, use a tmpfs or ramfs:
 
-    ulimit -Sv 500000
-    sudo umount tmp && \
-        sudo mount -t tmpfs -o size=1g tmpfs tmp && \
-        sudo chown $USER:$USER tmp &&
-        ./imagine-all-the-people.py
+```
+ulimit -Sv 500000
+mkdir -p tmp
+sudo umount tmp
+sudo mount -t tmpfs -o size=3g tmpfs tmp
+sudo chown $USER:$USER tmp
+cd tmp
+../many-commits.py
+```
 
 The tags can be used to push by parts to GitHub, which does not accept 1M at once:
 
-    remote='git@github.com:cirosantilli/test-many-commits-1m.git'
-    for i in `seq 10 10 100`; do
-        git --git-dir=tmp/repo.tmp/.git push -f "$remote" "$i:master"
-    done
-    # TODO for some reason I needed this afterwards.
-    git --git-dir=tmp/repo.tmp/.git push "$remote" 'master'
+```
+remote='git@github.com:cirosantilli/test-many-commits-1m.git'
+for i in `seq 10 10 100`; do
+    git --git-dir=tmp/repo.tmp/.git push -f "$remote" "$i:master"
+done
+# TODO for some reason I needed this afterwards.
+git --git-dir=tmp/repo.tmp/.git push "$remote" 'master'
+```
 """
 
 import datetime
@@ -30,10 +36,15 @@ import sys
 
 import util
 
-email = b'a@a.com'
+email = b''
 name = b''
 
 util.init()
+
+# https://stackoverflow.com/questions/9905257/git-push-fatal-unable-to-create-thread-resource-temporarily-unavailable
+subprocess.run(['git', 'config', '--local', 'pack.windowMemory', '50m'])
+subprocess.run(['git', 'config', '--local', 'pack.packSizeLimit', '50m'])
+subprocess.run(['git', 'config', '--local', 'pack.threads', '1'])
 
 tree = util.create_tree_with_one_file()
 commit = None
@@ -59,7 +70,7 @@ for i in range(n):
         print(datetime.datetime.now())
         # Lose objects are too large and blow up the tmpfs.
         # Does clean packets, but the calculation takes more and more memory,
-        # and slows down and blows up at the end. TODO which subcommand blows up eactly?.
+        # and slows down and blows up at the end. TODO which subcommand blows up exactly?.
         #subprocess.check_output(['git', 'gc'])
         subprocess.check_output(['git', 'repack'])
         subprocess.check_output(['git', 'prune-packed'])
