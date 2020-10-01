@@ -17,6 +17,7 @@ There are also some tests that could not be included here conveniently:
 - <https://github.com/cirosantilli/test-empty-commit>
 - <https://github.com/cirosantilli/test-empty-subdir>
 - <https://github.com/cirosantilli/test-git-partial-clone>: [partial-clone.sh](partial-clone.sh) | https://stackoverflow.com/questions/600079/how-do-i-clone-a-subdirectory-only-of-a-git-repository/52269934#52269934
+- <https://github.com/cirosantilli/test-git-filter-repo>: [filter-repo.sh](filter-repo.sh)
 - <https://github.com/cirosantilli/test-invalid-utf8>
 - <https://github.com/cirosantilli/test-large-file>
 - <https://github.com/cirosantilli/test-long-filename-1024>

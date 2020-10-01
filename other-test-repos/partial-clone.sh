@@ -1,12 +1,10 @@
 #!/usr/bin/env bash
+set -eu
 
 # https://stackoverflow.com/questions/600079/how-do-i-clone-a-subdirectory-only-of-a-git-repository/52269934#52269934
 rm -rf partial-clone.tmp
 mkdir -p partial-clone.tmp
 cd partial-clone.tmp
-
-#!/usr/bin/env bash
-set -eu
 
 list-objects() (
   git rev-list --all --objects
