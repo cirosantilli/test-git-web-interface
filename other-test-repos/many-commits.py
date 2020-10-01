@@ -1,6 +1,8 @@
 #!/usr/bin/env python3
 
 """
+many-commits-fast-import.py, is a simpler and better alternative to this, just use that!!!
+
 Packing is important, or else deleting and pushing the generated repository could take a **huge** ammount of time.
 
 This method gets slower as it goes. 1M are fast to generate, but 10M require running for 24h nonstop.
