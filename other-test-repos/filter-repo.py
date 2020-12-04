@@ -12,7 +12,7 @@ def blob_callback(blob, callback_metadata):
 args = git_filter_repo.FilteringOptions.default_options()
 args.force = True
 args.partial = True
-args.refs = ['HEAD']
+args.refs = ['HEAD~..HEAD']
 args.repack=False
 args.replace_refs='update-no-add'
 
