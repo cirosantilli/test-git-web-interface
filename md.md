@@ -270,6 +270,10 @@ Automatic relative link: <a.md>. Fails because would conflict with HTML tags.
 
 - ./d/png.png ![](./d/png.png)
 
+### Video
+
+https://user-images.githubusercontent.com/1429315/103039458-deb12a00-4568-11eb-9281-7cb8550666ca.mp4 uploaded at https://github.com/cirosantilli/china-dictatorship/issues/169
+
 ### Markup inside link
 
 - [`d`](d)

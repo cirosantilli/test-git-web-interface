@@ -75,6 +75,10 @@ image::png.png[]
 
 Link to image: <<my-png>>
 
+== Videos
+
+video::https://user-images.githubusercontent.com/1429315/103039458-deb12a00-4568-11eb-9281-7cb8550666ca.mp4[]
+
 == Tables
 
 [[my-table,My table]]
