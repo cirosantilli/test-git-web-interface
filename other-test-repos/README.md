@@ -14,6 +14,7 @@ Tests that are very large will not be included here to keep this repository smal
 
 There are also some tests that could not be included here conveniently:
 
+- <https://gist.github.com/ryancdotorg/a256c3cdbb45caaf7e203baf4f9d7e56> ANSI art in the author field, too disruptive to the `git log`, even for this repo!
 - <https://github.com/cirosantilli/test-commit-many-parents>
 - <https://github.com/cirosantilli/test-control-chars>
 - <https://github.com/cirosantilli/test-empty-commit>
