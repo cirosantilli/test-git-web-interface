@@ -327,3 +327,15 @@ mmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmm
 For compilers that treat `h1` magically (e.g. add to a TOC):
 
 # <script>alert('xss')</script>
+
+## LaTeX
+
+https://docs.gitlab.com/ee/user/markdown.html#math
+
+This math is inline $`a^2+b^2=c^2`$.
+
+This is on a separate line:
+
+```math
+a^2+b^2=c^2
+```
