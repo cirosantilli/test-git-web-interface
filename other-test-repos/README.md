@@ -11,6 +11,7 @@ Tests that are very large will not be included here to keep this repository smal
     - [many-commits.py](many-commits-fast-import.py) superior
     - [many-commits.py](many-commits.py) inferior
 - <https://github.com/cirosantilli/test-asciidoc-large-variable>
+- <https://github.com/cirosantilli/test-asciidoc-large-variable-recursive>
 
 There are also some tests that could not be included here conveniently:
 
