@@ -204,6 +204,8 @@ no pipes:
 
 Automatic: <http://example.com>
 
+Link inside link: [[http://example1.com](http://example1.com)](http://example2.com)
+
 Weird characters: with and without angle brackets:
 
 `'` <http://example.com/ab'cd> http://example.com/ab'cd
