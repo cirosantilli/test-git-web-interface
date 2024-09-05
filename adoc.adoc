@@ -42,6 +42,8 @@ Deeeep.
 
 link:http://example.com[example site]
 
+Explicit link inside explicit link: link:http://example1.com[asdf link:http://example2.com[example2.com] qwer]
+
 link:adoc.adoc
 
 link::adoc.adoc
@@ -49,6 +51,8 @@ link::adoc.adoc
 link:adoc.adoc[]
 
 link:++a b++[link with spaces]
+
+=== Hyperlinks in link:http://example.com[example.com] a header
 
 == Lists
 
