@@ -48,27 +48,18 @@ The most interesting files on this repository are:
     Everything else goes:
 
     -   [?a=b&c=d](?a=b&c=d)
-
     -   ["](")
-
     -   ['](')
-
     -   [#](#)
-
+    -   [%](%)
+    -   [%20](%20)
     -   [;](;)
-
     -   [:](:)
-
     -   [-start-with-slash](-start-with-slash)
-
     -   [<script>](<script>)
-
     -   `<script src="data:text;utf8,alert('xss')">`
-
     -   [back\slash](back\slash)
-
     -   whitespace filename edge cases:
-
         - [single whitespace filename](%20)
         - [double whitespace directory name](%20%20/) and [its README](%20%20/README.md)
         - [a b](a b)
